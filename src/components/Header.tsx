@@ -2,10 +2,11 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header style={{ padding: "12px 16px", borderBottom: "1px solid #ddd" }}>
-      <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
-        <strong>GitHub Workflow Demo</strong>
-        <nav style={{ display: "flex", gap: 10 }}>
+    <header className="site-header">
+      <div className="container header-inner">
+        <strong className="logo">GitHub Workflow Demo</strong>
+
+        <nav aria-label="Primary" className="nav">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
         </nav>
