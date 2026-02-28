@@ -40,3 +40,29 @@ a {
     color-scheme: dark;
   }
 }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.site-header {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  font-weight: 700;
+}
