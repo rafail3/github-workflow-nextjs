@@ -15,6 +15,7 @@ export default function Home() {
         />
         <div className={styles.intro}>
           <h1>To get started, edit the page.tsx file.</h1>
+          <h2>Versioned with Git, GitHub, and GitHub Actions.</h2>
           <p>
             Looking for a starting point or more instructions? Head over to{" "}
             <a
