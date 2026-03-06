@@ -12,6 +12,6 @@ export default function Header() {
           <Link href="/contact">Contact</Link>
         </nav>
       </div>
-    </header>
+    </header> 
   );
 }
